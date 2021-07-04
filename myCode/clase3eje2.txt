@@ -1,0 +1,25 @@
+1.  En el contexto del coronavirus, una tienda está ofreciendo artículos de aseo con despacho a domicilio:
+
+Los productos que ofrece son los siguientes:
+
+1.  Cloro (1 lt.): $5.000
+
+2.  Guantes Latex (2 pares): $1.500
+
+3.  Spray Anitbaterial: $2.500
+
+El costo de envío es variable según las siguientes reglas:
+
+   Si el total de la compra es mayor a $14.999 el envío es gratis
+
+   Si está dentro de la comuna y el total el mayor a $9.999 el envío también es gratis
+
+   Si está dentro de la comuna el envío el de $1.000
+
+   Si está en una comuna anexa el envío es de $2.000
+
+   Si está una comuna alejada el envío es de $5.000    
+
+    Debe generar una aplicación que calcule el total a pagar incluyendo el envío.
+
+

@@ -1,0 +1,40 @@
+///////////////////////////////////////////
+///////////////INCOMPLETO//////////////////
+///////////////////////////////////////////
+
+Clientes
+----
+Numero_Cliente PK
+Direcciones_Envio
+Saldo
+Limite_Credito
+Descuento
+
+Articulos
+-------
+Numero_Articulo PK
+Distribuidoras
+Existencia_Fabrica
+Descripcion
+
+Pedidos
+-----
+Pedido_Id PK
+Numero_Cliente FK >- Clientes.Numero_Cliente
+Direccion_Envio
+Fecha
+Cuerpo_Id
+
+Cuerpo
+------
+Cuerpo_Id PK
+Pedido_Id FK >- Pedidos.Cuerpo_Id
+Numero_Articulo FK >- Articulos.Numero_Articulo
+Cantidad
+
+Fabricas
+---
+Numero_Fabrica PK
+Telefono 
+Aritculos_Proveidos
+Fabrica_Alternativa
