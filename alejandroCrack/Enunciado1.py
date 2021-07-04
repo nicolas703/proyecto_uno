@@ -217,7 +217,6 @@ asientos = {
         "precio": valorVip
     }
 }
-
 clientes = {}
 
 while(opcion!=5):
